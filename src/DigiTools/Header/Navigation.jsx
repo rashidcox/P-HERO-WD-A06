@@ -68,10 +68,10 @@ function Navigation() {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end ">
         <a href="#"><FiShoppingCart /></a>
-        <a className="mx-4 font-bold text-gray-600" href="#">Login</a>
-        <a className="btn bg-[#7326f8] rounded-full text-white">Get Started</a>
+        <a className="mx-4 font-bold text-gray-600 max-sm:hidden" href="#">Login</a>
+        <a className="btn bg-[#7326f8] rounded-full text-white max-sm:hidden">Get Started</a>
       </div>
     </div>
   );
