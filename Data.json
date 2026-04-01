@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes easily with AI assistance.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "file-text"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a personal portfolio website in minutes.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Custom domains", "Drag & drop builder", "SEO optimized"],
+    "icon": "globe"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker",
+    "description": "Track your job applications and interviews efficiently.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Application tracking", "Interview reminders", "Analytics dashboard"],
+    "icon": "briefcase"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter Generator",
+    "description": "Generate customized cover letters instantly.",
+    "price": 14.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI suggestions", "Multiple formats", "Easy editing"],
+    "icon": "edit"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimizer",
+    "description": "Enhance your LinkedIn profile for better visibility.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Profile review", "Keyword optimization", "Headline generator"],
+    "icon": "linkedin"
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep Kit",
+    "description": "Prepare for interviews with mock questions and tips.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Mock interviews", "Common Q&A", "Expert tips"],
+    "icon": "mic"
+  },
+  {
+    "id": 7,
+    "name": "Skill Assessment Tool",
+    "description": "Test and evaluate your professional skills.",
+    "price": 12.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Skill quizzes", "Performance reports", "Improvement tips"],
+    "icon": "check-circle"
+  },
+  {
+    "id": 8,
+    "name": "Freelancer Starter Pack",
+    "description": "Everything you need to start freelancing online.",
+    "price": 39.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Proposal templates", "Client management", "Invoice generator"],
+    "icon": "package"
+  }
+]
