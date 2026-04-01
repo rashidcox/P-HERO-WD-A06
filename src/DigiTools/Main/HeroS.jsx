@@ -26,7 +26,7 @@ function HeroS() {
             <button className="hover:bg-linear-to-bl hover:from-[#9415fa] hover:to-[#612ff7] hover:text-white border border-blue-900 text-blue-900 px-5 py-2 rounded-full font-semibold flex gap-2 items-center"><CiPlay1 /> Watch Demo</button>
           </div>
         </div>
-        <div>
+        <div className="max-sm:hidden">
           <div><img src={Banner} alt="" /></div>
         </div>
       </div>

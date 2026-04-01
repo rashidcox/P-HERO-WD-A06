@@ -9,7 +9,7 @@ function ProductCard() {
         <div className="card w-96 bg-base-100 border-2 border-gray-200">
           <div className="card-body">
             <div className="flex justify-between my-1">
-              <span className="w-15 h-15 rounded-full border-1 border-gray-200 flex justify-center items-center"><img src={wn} alt="" /></span>
+              <span className="w-15 h-15 rounded-full border border-gray-200 flex justify-center items-center"><img src={wn} alt="" /></span>
               <span className="badge badge-xs badge-warning">Most Popular</span>
             </div>
             <div className="flex flex-col gap-4">

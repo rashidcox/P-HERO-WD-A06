@@ -16,7 +16,7 @@ function GetStart() {
           </p>
         </div>
 
-        <div className="flex justify-between max-sm:flex-col max-sm:gap-5">
+        <div className="flex justify-center max-sm:flex-col max-sm:items-center max-sm:gap-5">
           <div className="card w-96 bg-base-100 p-5 card-md border-2 border-gray-200">
             <div className="flex justify-end">
               <div className="flex justify-center bg-blue-900 w-10 h-10 rounded-full items-center">
