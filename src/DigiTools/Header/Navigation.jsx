@@ -71,7 +71,7 @@ function Navigation() {
       <div className="navbar-end ">
         <a href="#"><FiShoppingCart /></a>
         <a className="mx-4 font-bold text-gray-600 max-sm:hidden" href="#">Login</a>
-        <a className="btn bg-[#7326f8] rounded-full text-white max-sm:hidden">Get Started</a>
+        <a className="btn bg-linear-to-bl from-[#9415fa] to-[#612ff7] rounded-full text-white max-sm:hidden">Get Started</a>
       </div>
     </div>
   );
