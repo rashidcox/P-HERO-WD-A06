@@ -7,7 +7,7 @@ function SelectCart({ cartlist, setCartlist, cart, setCart }) {
     }
   return (
     <div>
-      <div className="w-9/12 p-10 mx-auto">
+      <div>
         <ul className="list bg-base-100 rounded-box shadow-md">
           <li className="p-4 pb-2 text-sl font-semibold text-gray-700 tracking-wide">
             Your Cart
