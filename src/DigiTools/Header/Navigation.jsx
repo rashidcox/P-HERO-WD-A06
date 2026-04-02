@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../assets/DigiTools.png";
 import { FiShoppingCart } from "react-icons/fi";
 
-function Navigation() {
+function Navigation({ cart }) {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
@@ -69,7 +69,13 @@ function Navigation() {
         </ul>
       </div>
       <div className="navbar-end ">
-        <a href="#"><FiShoppingCart /></a>
+        {
+          cart > 0 ?
+          <span className="mx-4 font-bold text-white bg bg-red-600 rounded-full w-5 h-5 flex justify-center items-center">{cart} </span>
+          :
+          <span className="hidden">0 </span>
+        }
+        <a href="#"><FiShoppingCart /> </a>
         <a className="mx-4 font-bold text-gray-600 max-sm:hidden" href="#">Login</a>
         <a className="btn bg-linear-to-bl from-[#9415fa] to-[#612ff7] rounded-full text-white max-sm:hidden">Get Started</a>
       </div>

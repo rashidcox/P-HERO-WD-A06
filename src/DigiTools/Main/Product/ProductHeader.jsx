@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import ProductCard from "./ProductCard";
+import SelectCart from "./SelectCart";
 
-function ProductHeader() {
-  const aa = [0, 1, 2, 3, 4, 5];
+
+
+function ProductHeader({ data, cart, setCart, setCartlist, cartlist }) {
+  const [isSelected, setIsSelected] = useState(true);
   return (
     <div className="w-11/12 p-10 mx-auto">
       <div className="mb-10">
@@ -14,19 +17,24 @@ function ProductHeader() {
           designed to boost your productivity and creativity.
         </p>
         <div className="my-4 flex justify-center">
-          <button className="mr-4 cursor-pointer bg-[#662df7] text-white px-5 py-2 rounded-full">
-            Products
+          <button onClick={()=> setIsSelected(!isSelected)} className={`"mr-5 cursor-pointer ${!isSelected ? "bg-[#662df7] hover:bg-[#662df7] hover:text-white px-5 py-2 rounded-full text-white" : "bg-white text-[#662df7]"}`}>
+             Cart( {cart} )
           </button>
-          <button className="cursor-pointer hover:bg-[#662df7] hover:text-white px-5 py-2 rounded-full">
-            Cart (2)
+          <button onClick={()=> setIsSelected(!isSelected)} className={`"cursor-pointer ${isSelected ? "bg-[#662df7] hover:bg-[#662df7] hover:text-white px-5 py-2 rounded-full text-white" : "bg-white px-5 py-2 rounded-full  text-[#662df7]"}`}>
+           Products
           </button>
         </div>
       </div>
-      <div className="grid max-sm:grid-cols-1 grid-cols-3 gap-5">
-        {aa.map((a) => (
-          <ProductCard key={a} />
+      {isSelected ? (<div className="grid max-sm:grid-cols-1 grid-cols-3 gap-5">
+        {data.map((a, index) => (
+          <ProductCard key={index} data={a} cart={cart} setCart={setCart} setCartlist={setCartlist} cartlist={cartlist} />
         ))}
-      </div>
+      </div>) : (<div className="grid grid-cols-1 gap-2">
+        <SelectCart cartlist={cartlist} setCartlist={setCartlist} cart={cart} setCart={setCart} />
+      </div>)
+    
+      }
+      
     </div>
   );
 }

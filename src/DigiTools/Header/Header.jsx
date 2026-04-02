@@ -1,10 +1,10 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-function Header() {
+function Header({ cart }) {
   return (
     <div>
-      <Navigation />
+      <Navigation cart={cart} />
     </div>
   );
 }

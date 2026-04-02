@@ -8,18 +8,18 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "file-text"
+    "icon": "https://i.ibb.co.com/JFzZpQ87/writing-2327400-1.png"
   },
   {
     "id": 2,
     "name": "Portfolio Website Kit",
-    "description": "Build a personal portfolio website in minutes.",
+    "description": "Build a personal portfolio website in minutes with a drag-and-drop interface.",
     "price": 29.99,
     "period": "one-time",
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Custom domains", "Drag & drop builder", "SEO optimized"],
-    "icon": "globe"
+    "icon": "https://i.ibb.co.com/sJ1t0bkj/social-media.png"
   },
   {
     "id": 3,
@@ -30,61 +30,39 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Application tracking", "Interview reminders", "Analytics dashboard"],
-    "icon": "briefcase"
+    "icon": "https://i.ibb.co.com/cV0gR77/shopping-cart.png"
   },
   {
     "id": 4,
-    "name": "Cover Letter Generator",
+    "name": "Cover Letter Generator Pro",
     "description": "Generate customized cover letters instantly.",
     "price": 14.99,
     "period": "yearly",
     "tag": "popular",
     "tagType": "popular",
     "features": ["AI suggestions", "Multiple formats", "Easy editing"],
-    "icon": "edit"
+    "icon": "https://i.ibb.co.com/v6KKZwx8/portfolio.pngg"
   },
   {
     "id": 5,
-    "name": "LinkedIn Optimizer",
-    "description": "Enhance your LinkedIn profile for better visibility.",
+    "name": "LinkedIn Optimizer Pro kit",
+    "description": "Enhance your LinkedIn profile for better .",
     "price": 19.99,
     "period": "one-time",
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Profile review", "Keyword optimization", "Headline generator"],
-    "icon": "linkedin"
+    "icon": "https://i.ibb.co.com/QvXTyp9g/operation.png"
   },
   {
     "id": 6,
-    "name": "Interview Prep Kit",
-    "description": "Prepare for interviews with mock questions and tips.",
+    "name": "Interview Prep Kit Pro kit ",
+    "description": "Prepare for interviews with mock questions.",
     "price": 7.99,
     "period": "monthly",
     "tag": "new",
     "tagType": "new",
     "features": ["Mock interviews", "Common Q&A", "Expert tips"],
-    "icon": "mic"
-  },
-  {
-    "id": 7,
-    "name": "Skill Assessment Tool",
-    "description": "Test and evaluate your professional skills.",
-    "price": 12.99,
-    "period": "yearly",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": ["Skill quizzes", "Performance reports", "Improvement tips"],
-    "icon": "check-circle"
-  },
-  {
-    "id": 8,
-    "name": "Freelancer Starter Pack",
-    "description": "Everything you need to start freelancing online.",
-    "price": 39.99,
-    "period": "one-time",
-    "tag": "best seller",
-    "tagType": "best seller",
-    "features": ["Proposal templates", "Client management", "Invoice generator"],
-    "icon": "package"
+    "icon": "https://i.ibb.co.com/ym2Wt0Rm/design-tool.png"
   }
 ]
